@@ -1,0 +1,46 @@
+[2026/09/24 23:59:09:2622] N: lws_create_context: LWS: 4.3.5-unknown, NET CLI SRV H1 H2 WS ConMon IPV6-off
+[2026/09/24 23:59:09:2628] N: __lws_lc_tag:  ++ [wsi|0|pipe] (1)
+[2026/09/24 23:59:09:2665] N: __lws_lc_tag:  ++ [vh|0|netlink] (1)
+[2026/09/24 23:59:09:2740] N: __lws_lc_tag:  ++ [vh|1|default||-1] (2)
+[2026/09/24 23:59:09:3809] N: __lws_lc_tag:  ++ [wsicli|0|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+[2026/09/24 23:59:09:8339] N: lws_gate_accepts: on = 0
+[2026/09/24 23:59:09:9855] N: lws_gate_accepts: on = 0
+[2026/09/25 20:39:42:7001] N: lws_gate_accepts: on = 0
+[2026/09/25 20:39:42:7003] N: __lws_lc_untag:  -- [wsicli|0|WS/h1/default/jetstream1.us-east.bsky.network] (0) 20.675hr
+[2026/09/25 20:39:42:7004] N: __lws_lc_tag:  ++ [wsicli|1|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+[2026/09/25 20:39:43:0923] N: [wsicli|1|WS/h1/default/jetstream1.us-east.bsky.network]: lws_sort_dns: 2604:2dc0:101:200::2567 has no route out
+[2026/09/25 20:39:43:2108] N: lws_gate_accepts: on = 0
+[2026/09/25 20:39:43:3515] N: lws_gate_accepts: on = 0
+[2026/09/25 20:39:43:4719] W: [wsicli|1|WS/h1/default/jetstream1.us-east.bsky.network]: lws_client_ws_upgrade: got bad HTTP response '503'
+[2026/09/25 20:39:43:4724] N: lws_gate_accepts: on = 0
+[2026/09/25 20:39:43:4724] N: __lws_lc_untag:  -- [wsicli|1|WS/h1/default/jetstream1.us-east.bsky.network] (0) 771.993ms
+[2026/09/25 20:40:09:3224] N: __lws_lc_tag:  ++ [wsicli|2|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+[2026/09/25 20:40:09:3341] N: [wsicli|2|WS/h1/default/jetstream1.us-east.bsky.network]: lws_sort_dns: 2604:2dc0:101:200::2567 has no route out
+[2026/09/25 20:40:09:4588] N: lws_gate_accepts: on = 0
+[2026/09/25 20:40:09:6018] N: lws_gate_accepts: on = 0
+[2026/09/25 20:44:16:2744] N: lws_gate_accepts: on = 0
+[2026/09/25 20:44:16:2746] N: __lws_lc_untag:  -- [wsicli|2|WS/h1/default/jetstream1.us-east.bsky.network] (0) 4.115min
+[2026/09/25 20:44:16:2747] N: __lws_lc_tag:  ++ [wsicli|3|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+[2026/09/25 20:44:16:2875] N: [wsicli|3|WS/h1/default/jetstream1.us-east.bsky.network]: lws_sort_dns: 2604:2dc0:101:200::2567 has no route out
+[2026/09/25 20:44:16:4065] N: lws_gate_accepts: on = 0
+[2026/09/25 20:44:16:5426] N: lws_gate_accepts: on = 0
+[2026/09/25 20:44:16:6616] W: [wsicli|3|WS/h1/default/jetstream1.us-east.bsky.network]: lws_client_ws_upgrade: got bad HTTP response '503'
+[2026/09/25 20:44:16:6621] N: lws_gate_accepts: on = 0
+[2026/09/25 20:44:16:6622] N: __lws_lc_untag:  -- [wsicli|3|WS/h1/default/jetstream1.us-east.bsky.network] (0) 387.475ms
+[2026/09/25 20:44:39:3554] N: __lws_lc_tag:  ++ [wsicli|4|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+[2026/09/25 20:44:39:3683] N: [wsicli|4|WS/h1/default/jetstream1.us-east.bsky.network]: lws_sort_dns: 2604:2dc0:101:200::2567 has no route out
+[2026/09/25 20:44:39:4929] N: lws_gate_accepts: on = 0
+[2026/09/25 20:44:39:6285] N: lws_gate_accepts: on = 0
+[2026/09/25 21:02:25:9547] N: lws_gate_accepts: on = 0
+[2026/09/25 21:02:25:9549] N: __lws_lc_untag:  -- [wsicli|4|WS/h1/default/jetstream1.us-east.bsky.network] (0) 17.776min
+[2026/09/25 21:02:25:9550] N: __lws_lc_tag:  ++ [wsicli|5|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+[2026/09/25 21:02:25:9673] N: [wsicli|5|WS/h1/default/jetstream1.us-east.bsky.network]: lws_sort_dns: 2604:2dc0:101:200::2567 has no route out
+[2026/09/25 21:02:26:0852] N: lws_gate_accepts: on = 0
+[2026/09/25 21:02:26:2213] N: lws_gate_accepts: on = 0
+[2026/09/25 21:02:26:3403] W: [wsicli|5|WS/h1/default/jetstream1.us-east.bsky.network]: lws_client_ws_upgrade: got bad HTTP response '503'
+[2026/09/25 21:02:26:3408] N: lws_gate_accepts: on = 0
+[2026/09/25 21:02:26:3408] N: __lws_lc_untag:  -- [wsicli|5|WS/h1/default/jetstream1.us-east.bsky.network] (0) 385.872ms
+[2026/09/25 21:02:39:3811] N: __lws_lc_tag:  ++ [wsicli|6|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+[2026/09/25 21:02:39:3936] N: [wsicli|6|WS/h1/default/jetstream1.us-east.bsky.network]: lws_sort_dns: 2604:2dc0:101:200::2567 has no route out
+[2026/09/25 21:02:39:5105] N: lws_gate_accepts: on = 0
+[2026/09/25 21:02:39:6462] N: lws_gate_accepts: on = 0
