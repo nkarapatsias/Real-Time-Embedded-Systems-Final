@@ -1,11 +1,11 @@
+#This makefile is targeting cross compilation on win11 system through wsl for the Rpi 3B V1.2 board
+
 ARCH=aarch64-linux-gnu-
 
 CC := $(ARCH)gcc
 
-# Binary name
 TARGET := ESPX
 
-# Source and Object files
 SRCS := main.c
 OBJS := $(SRCS:.c=.o)
 
