@@ -7,7 +7,7 @@
 
 ## 📌 Project Overview
 
-This project implements a multi-threaded, real-time embedded telemetry ingestion and processing engine on Linux (targeting **Raspberry Pi Zero W** or equivalent SBC hardware).
+This project implements a multi-threaded, real-time embedded telemetry ingestion and processing engine on Linux (targeting **Raspberry Pi 3B** or equivalent SBC hardware).
 
 The system subscribes asynchronously to the global **Bluesky Jetstream Firehose**, queues and parses incoming JSON events, maintains real-time statistics under strict mutual exclusion, and samples deterministic system metrics with sub-millisecond precision.
 
